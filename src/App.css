@@ -1,0 +1,386 @@
+@media screen and (min-width: 700px) {
+
+
+.app-main{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  overflow: auto;
+  
+
+}
+h1{
+  margin-bottom: 0px;
+}
+
+#task-creator{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+
+}
+
+
+.DescriptionRow{
+  display:inline-table;
+  background: rgb(196, 181, 46);
+  
+  border: 1px solid black;
+  width: 500px;
+  margin-bottom: 20px;
+
+}
+
+.HechoRow{
+  display: inline-table;
+  border: 1px solid black;
+  width:100px;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 20px;
+  background-color: rgb(180, 167, 47);
+
+}
+
+.HechoRowNew{
+  display:inline-table;
+  width:100px;
+  text-align: center;
+  align-content: center;
+  background-color:rgb(180, 167, 47);
+  
+
+}
+
+.DescriptionRowNew{
+  display:inline-table;
+  width: 500px;
+  overflow: auto;
+  background-color:lightgray;
+
+}
+
+.VisibilityControl{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+ 
+  
+
+
+}
+
+.btn-create{
+  border-radius: 100px;
+  padding: 10px;
+  background-color: rgb(206, 194, 89);
+
+}
+
+.btn-create:hover{
+  background-color:rgb(196, 181, 46);
+}
+
+.Boton-Borrar{
+  border-radius: 100px;
+  padding: 10px;
+  background-color: rgb(255, 72, 0);
+
+}
+
+.Boton-Borrar:hover{
+
+    background-color:red;
+  }
+
+  .div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:lightgray;
+    margin-top: 20px;
+    padding:20px;
+   border-radius: 20px;
+   border: 20px solid orange;
+   
+ 
+
+    
+  }
+
+
+
+}
+
+@media screen and (max-width: 699px) {
+
+  .app-main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    overflow: auto;
+    
+  
+  }
+  h1{
+    margin-bottom: 0px;
+  }
+  
+  #task-creator{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+  
+  }
+  
+  
+  .DescriptionRow{
+    display:inline-table;
+    background: rgb(196, 181, 46);
+    
+    border: 1px solid black;
+    overflow: auto;
+    min-width: 350px;
+    max-width: 500px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  
+  }
+  
+  .HechoRow{
+    display: inline-table;
+    border: 1px solid black;
+    overflow: auto;
+    min-width: 50px;
+    max-width:99px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+    background-color: rgb(180, 167, 47);
+    flex-shrink: 2;
+   
+  
+  }
+  
+  .HechoRowNew{
+    display:inline-table;
+    overflow: auto;
+    min-width: 50px;
+    max-width:99px;
+    text-align: center;
+    align-content: center;
+    background-color:rgb(180, 167, 47);
+    flex-shrink: 2;
+  
+    
+  
+  }
+  
+  .DescriptionRowNew{
+    display:inline-table;
+    overflow: auto;
+    min-width: 350px;
+    max-width: 500px;
+    overflow: auto;
+    background-color:lightgray;
+    flex-grow: 1;
+  
+  }
+  
+  .VisibilityControl{
+    margin: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+   
+    
+  
+  
+  }
+  
+  .btn-create{
+    border-radius: 100px;
+    padding: 10px;
+    background-color: rgb(206, 194, 89);
+  
+  }
+  
+  .btn-create:hover{
+    background-color:rgb(196, 181, 46);
+  }
+  
+  .Boton-Borrar{
+    border-radius: 100px;
+    padding: 10px;
+    background-color: rgb(255, 72, 0);
+  
+  }
+  
+  .Boton-Borrar:hover{
+  
+      background-color:red;
+    }
+  
+    .div-1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color:lightgray;
+      margin-top: 20px;
+      padding:20px;
+      border-radius:20px;
+      border: 15px solid orange;
+      
+     
+      
+    }
+}
+
+@media screen and (max-width: 499px) {
+  .app-main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    overflow: auto;
+    
+  
+  }
+  h1{
+    margin-bottom: 0px;
+  }
+  
+  #task-creator{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+  
+  }
+  
+  
+  .DescriptionRow{
+    display:inline-table;
+    background: rgb(196, 181, 46);
+  
+    border: 1px solid black;
+    overflow: auto;
+    min-width: 200px;
+    max-width: 370px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  
+  }
+  
+  .HechoRow{
+    display: inline-table;
+    border: 1px solid black;
+    overflow: auto;
+    min-width: 50px;
+    max-width:99px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+    background-color: rgb(180, 167, 47);
+    flex-shrink: 2;
+   
+  
+  }
+  
+  .HechoRowNew{
+    display:inline-table;
+    overflow: auto;
+    min-width: 50px;
+    max-width:99px;
+    text-align: center;
+    align-content: center;
+    background-color:rgb(180, 167, 47);
+    flex-shrink: 2;
+  
+    
+  
+  }
+  
+  .DescriptionRowNew{
+    display:inline-table;
+    overflow: auto;
+    min-width: 200px;
+    max-width: 370px;
+    align-content: center;
+    background-color:lightgray;
+    flex-grow: 1;
+  
+  }
+  
+  .VisibilityControl{
+    margin: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+   
+    
+  
+  
+  }
+  
+  .btn-create{
+    border-radius: 100px;
+    padding: 10px;
+    background-color: rgb(206, 194, 89);
+  
+  }
+  
+  .btn-create:hover{
+    background-color:rgb(196, 181, 46);
+  }
+  
+  .Boton-Borrar{
+    border-radius: 100px;
+    padding: 10px;
+    background-color: rgb(255, 72, 0);
+  
+  }
+  
+  .Boton-Borrar:hover{
+  
+      background-color:red;
+    }
+  
+    .div-1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color:lightgray;
+      margin-top: 20px;
+      padding:20px;
+      border-radius:20%;
+      border: 10px solid orange;
+      
+    }
+}
