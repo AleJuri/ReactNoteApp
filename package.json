@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "homepage":"http://AleJuri.github.io/ReactNoteApp",
+<<<<<<< HEAD
 
   "dependencies": {
     
+=======
+  "dependencies": {
+>>>>>>> 32d5f070b8845183e400ea7cf272d7d75e37c3c7
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
